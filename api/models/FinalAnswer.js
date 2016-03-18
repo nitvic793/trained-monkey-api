@@ -12,11 +12,16 @@ module.exports = {
     answer:{
         type:'string'
     },
-    
+    hints:{
+      type:'array'  
+    },
     user:{
         model:'User'
     },
-    
+    answered:{
+      type:'boolean',
+      defaultsTo: 'false' 
+    },
     toJSON() {
       return this.toObject();
     }

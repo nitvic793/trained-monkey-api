@@ -22,8 +22,8 @@ module.exports = {
       adapter: 'sails-mongo',
       host: 'ds015869.mlab.com',
       port: 15869,
-      user: 'nitish',
-      password: 'P@ssw0rd',
+      user: 'nhd',
+      password: 'Abcd1234',
       database: 'nhd'
     },
 

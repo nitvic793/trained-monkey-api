@@ -42,6 +42,10 @@ module.exports = {
       answer:{
           model:'Answer'
       },
+      
+      openTime:{
+        type:'datetime'  
+      },
 
     toJSON() {
       return this.toObject();

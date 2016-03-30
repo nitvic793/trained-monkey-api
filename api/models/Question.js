@@ -46,6 +46,10 @@ module.exports = {
       openTime:{
         type:'datetime'  
       },
+      
+      story:{
+        type:'string'  
+      },
 
     toJSON() {
       return this.toObject();

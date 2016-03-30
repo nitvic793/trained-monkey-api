@@ -10,6 +10,10 @@ module.exports = {
 
   attributes: {
     
+    image:{
+        type:'string'
+    },
+    
     user:{
         type:'string'
     },
